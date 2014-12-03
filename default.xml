@@ -5,6 +5,8 @@
             fetch="https://android.googlesource.com/" />
    <remote  name="x86"
             fetch="http://git.android-x86.org/" />
+    <remote  name="GGO"
+            fetch=".." />
    <default revision="refs/tags/android-5.0.1_r1"
             remote="aosp"
             sync-c="true"
@@ -14,7 +16,7 @@
    <project path="build" name="platform/build" groups="pdk,tradefed" remote="x86" revision="lollipop-x86" >
      <copyfile src="core/root.mk" dest="Makefile" />
    </project>
-   <project path="kernel" name="kernel/common" remote="x86" revision="android-3.10.y" />
+   <project path="linux" name="kernel/common" remote="GGO" revision="v3.18-rc6_android" />
    <project path="art" name="platform/art" groups="pdk" remote="x86" revision="lollipop-x86" />
    <project path="bionic" name="platform/bionic" groups="pdk" remote="x86" revision="lollipop-x86" />
    <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="lollipop-x86" />
