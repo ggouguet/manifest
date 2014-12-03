@@ -9,11 +9,7 @@
             remote="aosp"
             sync-c="true"
             sync-j="1" />
-   <default revision="refs/heads/lollipop-x86"
-            remote="x86"
-            sync-c="true"
-            sync-j="1" />
-   
+
    <!-- from x86 port repositories -->
    <project path="build" name="platform/build" groups="pdk,tradefed" remote="x86" revision="lollipop-x86" >
      <copyfile src="core/root.mk" dest="Makefile" />
