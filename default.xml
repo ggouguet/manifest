@@ -16,7 +16,7 @@
    <project path="build" name="platform/build" groups="pdk,tradefed" remote="x86" revision="lollipop-x86" >
      <copyfile src="core/root.mk" dest="Makefile" />
    </project>
-   <project path="linux" name="kernel/common" remote="GGO" revision="v3.18-rc6_android" />
+   <project path="kernel" name="linux" remote="GGO" revision="v3.18-rc6_android" />
    <project path="art" name="platform/art" groups="pdk" remote="x86" revision="lollipop-x86" />
    <project path="bionic" name="platform/bionic" groups="pdk" remote="x86" revision="lollipop-x86" />
    <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="lollipop-x86" />
