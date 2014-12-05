@@ -6,7 +6,7 @@
    <remote  name="x86"
             fetch="http://git.android-x86.org/" />
     <remote  name="GGO"
-            fetch=".." />
+            fetch="https://github.com/ggouguet/" />
    <default revision="refs/tags/android-5.0.1_r1"
             remote="aosp"
             sync-c="true"
