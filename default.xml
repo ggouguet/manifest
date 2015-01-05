@@ -85,7 +85,7 @@
   <project path="hardware/intel/wrs_omxil_core" name="omxil_core" remote="01org" revision="staging" >
   <copyfile src="Android.mk" dest="wrs_omxil_core.mk" />
   </project>
-  <project path="hardware/intel/omx-components" name="omx_comp" remote="01org" revision="staging" />
+  <project path="hardware/intel/omx-components" name="omx_comp" remote="01org" revision="staging" >
   <copyfile src="Android.mk" dest="omx-components.mk" />
   </project>
   <!-- from original Android repositories -->
