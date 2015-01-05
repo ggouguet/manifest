@@ -153,7 +153,7 @@
 <project name="platform/external/marisa-trie" path="external/marisa-trie" revision="629ed059b1e85cd8e4de363d8b3dc53c15c3e08a" upstream="refs/tags/android-4.4.4_r2.0.1"/>
 <project name="platform/external/markdown" path="external/markdown" revision="6f2e3554ae38cc90518d32e02cb57d05988270a6" upstream="refs/tags/android-4.4.4_r2.0.1"/>
 <project groups="pdk" name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="c46f53f5e072f23051c4eedef730386f7634dc11" upstream="refs/tags/android-4.4.4_r2.0.1"/>
-<project path="external/mesa" name="lbdroid/android-x86_external_mesa" remote="github" revision="android_10.1.4" />
+<project path="external/mesa" name="android-x86_external_mesa" remote="github" revision="android_10.1.4" />
 <!-- <project name="platform/external/mesa" path="external/mesa" remote="x86" revision="c5c43d65c2db5109bb33d2af6ef099c0c32d44f7" upstream="kitkat-x86"/> -->
 <project groups="pdk" name="platform/external/mksh" path="external/mksh" revision="d2b5c0ede63db6e5390c680884ca65f612173da0" upstream="master"/>
 <project name="platform/external/mockito" path="external/mockito" revision="34f80a94e45f7110ec3444c1d0ecfacc194d009a" upstream="refs/tags/android-4.4.4_r2.0.1"/>
