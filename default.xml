@@ -8,6 +8,7 @@
            sync-c="true"
            sync-j="1" />
 <remote name="github" fetch="https://github.com/lbdroid/" />
+<remote name="android-ia" fetch="https://github.com/android-ia/"/>
 
   <!-- from x86 port repositories -->
   <project path="build" name="platform/build" groups="pdk" remote="x86" revision="kitkat-x86" >
@@ -62,6 +63,19 @@
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="vendor/intel/houdini" name="platform/vendor/intel/houdini" remote="x86" revision="kitkat-x86" />
+<!-- from ia32 -->
+  <project path="vendor/intel/build" name="vendor_intel_build" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/audio" name="vendor_intel_audio" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/libcamerauvc" name="platform_vendor_intel_libcamerauvc" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/libdrm" name="hardware_intel_libdrm" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/liblights" name="hardware_intel_liblights" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/libpower" name="platform_vendor_intel_libpower" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/libsensors" name="platform_vendor_intel_libsensors" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/libva" name="hardware_intel_libva" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/ufo" name="hardware_intel_ufo" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/wlan/hostap_wcs" name="vendor_intel_hardware_wlan_hostap_wcs" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/wlan/iwl-firmware" name="platform_vendor_intel_fw_iwl" remote="android-ia" revision="master" />
+  <project path="vendor/intel/hardware/wlan/iwlwifi" name="vendor_intel_hardware_wlan_iwlwifi" remote="android-ia" revision="master" />
 
   <!-- from original Android repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
