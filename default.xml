@@ -9,6 +9,7 @@
            sync-j="1" />
 <remote name="github" fetch="https://github.com/lbdroid/" />
 <remote name="android-ia" fetch="https://github.com/android-ia/"/>
+<remote name="01org" fetch="https://github.com/01org"/>
 
   <!-- from x86 port repositories -->
   <project path="build" name="platform/build" groups="pdk" remote="x86" revision="kitkat-x86" >
@@ -71,12 +72,22 @@
   <project path="vendor/intel/hardware/liblights" name="hardware_intel_liblights" remote="android-ia" revision="master" />
   <project path="vendor/intel/hardware/libpower" name="platform_vendor_intel_libpower" remote="android-ia" revision="master" />
   <project path="vendor/intel/hardware/libsensors" name="platform_vendor_intel_libsensors" remote="android-ia" revision="master" />
-  <project path="vendor/intel/hardware/libva" name="hardware_intel_libva" remote="android-ia" revision="master" />
+  <!--<project path="vendor/intel/hardware/libva" name="hardware_intel_libva" remote="android-ia" revision="master" />-->
   <project path="vendor/intel/hardware/ufo" name="hardware_intel_ufo" remote="android-ia" revision="master" />
   <project path="vendor/intel/hardware/wlan/hostap_wcs" name="vendor_intel_hardware_wlan_hostap_wcs" remote="android-ia" revision="master" />
   <project path="vendor/intel/hardware/wlan/iwl-firmware" name="platform_vendor_intel_fw_iwl" remote="android-ia" revision="master" />
   <project path="vendor/intel/hardware/wlan/iwlwifi" name="vendor_intel_hardware_wlan_iwlwifi" remote="android-ia" revision="master" />
-
+<!-- from 01org -->
+  <project path="vendor/intel/hardware/libva" name="libva-cros" remote="01org" revision="staging" />
+  <project path="external/intel-driver" name="libva-intel-driver-cros" remote="01org" revision="staging" >
+  <copyfile src="Android.mk" dest="intel-driver.mk" />
+  </project>
+  <project path="hardware/intel/wrs_omxil_core" name="omxil_core" remote="01org" revision="staging" >
+  <copyfile src="Android.mk" dest="wrs_omxil_core.mk" />
+  </project>
+  <project path="hardware/intel/omx-components" name="omx_comp" remote="01org" revision="staging" />
+  <copyfile src="Android.mk" dest="omx-components.mk" />
+  </project>
   <!-- from original Android repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
