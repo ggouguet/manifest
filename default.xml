@@ -5,7 +5,7 @@
 <remote name="android-ia" fetch="https://github.com/android-ia/"/>
 <remote name="01org" fetch="https://github.com/01org"/>
 
-  <project path="external/mesa" name="mesa" remote="github" revision="10.4" />
+  <project path="external/mesa" name="mesa/mesa" remote="github" revision="10.4" />
 <!-- from ia32 -->
   <project path="vendor/intel/build" name="vendor_intel_build" remote="android-ia" revision="android-4.4.2_r1-ia2" />
   <project path="vendor/intel/hardware/audio" name="vendor_intel_audio" remote="android-ia" revision="android-4.4.2_r1-ia2" />
