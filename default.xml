@@ -20,8 +20,8 @@
   <project path="vendor/intel/hardware/wlan/iwl-firmware" name="platform_vendor_intel_fw_iwl" remote="android-ia" revision="master" />
   <project path="vendor/intel/hardware/wlan/iwlwifi" name="vendor_intel_hardware_wlan_iwlwifi" remote="android-ia" revision="master" />
 <!-- from 01org -->
-  <project path="vendor/intel/hardware/libva" name="libva-cros" remote="01org" revision="master" />
-  <project path="external/intel-driver" name="libva-intel-driver-cros" remote="01org" revision="master" >
+  <project path="vendor/intel/hardware/libva" name="libva-cros" remote="01org" revision="staging" />
+  <project path="external/intel-driver" name="libva-intel-driver-cros" remote="01org" revision="staging" >
   <copyfile src="Android.mk" dest="intel-driver.mk"/>
   </project>
   <project path="hardware/intel/wrs_omxil_core" name="omxil_core" remote="01org" revision="master" >
