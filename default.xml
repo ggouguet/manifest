@@ -7,8 +7,8 @@
 
   <project path="external/mesa" name="mesa/mesa" remote="github" revision="10.4" />
 <!-- from ia32 -->
-  <project path="vendor/intel/build" name="vendor_intel_build" remote="android-ia" revision="master" />
-  <project path="vendor/intel/hardware/audio" name="vendor_intel_audio" remote="android-ia" revision="android-4.4.2_r1-ia2" />
+  <!--<project path="vendor/intel/build" name="vendor_intel_build" remote="android-ia" revision="master" />-->
+  <project path="vendor/intel/hardware/audio" name="vendor_intel_audio" remote="android-ia" revision="master" />
   <project path="vendor/intel/hardware/libcamerauvc" name="platform_vendor_intel_libcamerauvc" remote="android-ia" revision="android-4.4.2_r1-ia2" />
   <project path="vendor/intel/hardware/libdrm" name="hardware_intel_libdrm" remote="android-ia" revision="android-4.4.2_r1-ia2" />
   <project path="vendor/intel/hardware/liblights" name="hardware_intel_liblights" remote="android-ia" revision="android-4.4.2_r1-ia2" />
