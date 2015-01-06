@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="github" fetch="http://cgit.freedesktop.org/" />
+<remote name="github" fetch="http://cgit.freedesktop.org/mesa/" />
 <remote name="android-ia" fetch="https://github.com/android-ia/"/>
 <remote name="01org" fetch="https://github.com/01org"/>
 
-  <project path="external/mesa" name="mesa/mesa" remote="github" revision="10.4" />
+  <project path="external/mesa" name="mesa" remote="github" revision="10.4" />
 <!-- from ia32 -->
   <project path="vendor/intel/build" name="vendor_intel_build" remote="android-ia" revision="master" />
   <project path="vendor/intel/hardware/audio" name="vendor_intel_audio" remote="android-ia" revision="master" />
