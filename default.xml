@@ -6,6 +6,9 @@
 <remote name="01org" fetch="https://github.com/01org"/>
 
   <project path="external/mesa" name="mesa/mesa" remote="github" revision="master" />
+  <project path="external/libdrm" name="mesa/drm" remote="github" revision="master" />
+  <project path="external/clover" name="mesa/clover" remote="github" revision="master" />
+  
 <!-- from ia32 -->
   <!--<project path="vendor/intel/build" name="vendor_intel_build" remote="android-ia" revision="master" />-->
   <project path="vendor/intel/hardware/audio" name="vendor_intel_audio" remote="android-ia" revision="master" />
