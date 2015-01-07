@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="github" fetch="http://cgit.freedesktop.org/" />
+<remote name="github" fetch="http://anongit.freedesktop.org/git/" />
 <remote name="android-ia" fetch="https://github.com/android-ia/"/>
 <remote name="01org" fetch="https://github.com/01org"/>
 
